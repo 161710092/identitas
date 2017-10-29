@@ -6,6 +6,7 @@
 	$human3 = new identitas();
 	$human4 = new identitas();
 	$human5 = new identitas();
+	$human6 = new identitas();
 
 	echo '<b>Identitas Siswa</b>'.'<br>'.
 	'----------------------------------------'.'<br>';
@@ -55,6 +56,17 @@
 		'----------------------------------------'.'<br>';
 
 	$human5-> set_nama('Alif');
+	$human5-> set_tl('Bandung');
+	$human5-> set_kelas('XI RPL 2');
+	$human5-> set_status('Misteri');
+
+	echo 'Nama Siswa : '.$human5-> get_nama().'<br>'.
+		'Tempat Lahir : '.$human5-> get_tl().'<br>'.
+		'Kelas : '.$human5-> get_kelas().'<br>'.
+		'Status : '.$human5-> get_status().'<br>'.
+		'----------------------------------------'.'<br>';
+
+	$human5-> set_nama('Ariz');
 	$human5-> set_tl('Bandung');
 	$human5-> set_kelas('XI RPL 2');
 	$human5-> set_status('Misteri');
