@@ -66,15 +66,15 @@
 		'Status : '.$human5-> get_status().'<br>'.
 		'----------------------------------------'.'<br>';
 
-	$human5-> set_nama('Ariz');
-	$human5-> set_tl('Bandung');
-	$human5-> set_kelas('XI RPL 2');
-	$human5-> set_status('Misteri');
+	$human6-> set_nama('Ariz');
+	$human6-> set_tl('Bandung');
+	$human6-> set_kelas('XI RPL 2');
+	$human6-> set_status('Misteri');
 
-	echo 'Nama Siswa : '.$human5-> get_nama().'<br>'.
-		'Tempat Lahir : '.$human5-> get_tl().'<br>'.
-		'Kelas : '.$human5-> get_kelas().'<br>'.
-		'Status : '.$human5-> get_status().'<br>'.
+	echo 'Nama Siswa : '.$human6-> get_nama().'<br>'.
+		'Tempat Lahir : '.$human6-> get_tl().'<br>'.
+		'Kelas : '.$human6-> get_kelas().'<br>'.
+		'Status : '.$human6-> get_status().'<br>'.
 		'----------------------------------------'.'<br>';
 		
 ?>
